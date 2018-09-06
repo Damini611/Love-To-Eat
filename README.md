@@ -1,3 +1,3 @@
 # Love-To-Eat
 
-A single page web application based on react.js!
+A single page web application created using create-react-app.
