@@ -6,9 +6,11 @@
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
+    "react-dropzone": "^5.0.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "superagent": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",

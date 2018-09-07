@@ -9,3 +9,9 @@ body {
 .form-inline > * {
     margin:15px 3px !important;
 }
+
+.dropzone {
+  width : 20%;
+  height : 20%;
+  border : 1px solid black;
+}

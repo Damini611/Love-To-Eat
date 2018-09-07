@@ -24,7 +24,7 @@ export class IngredientList extends React.Component{
 
 	render(){	
 		return(
-				<div className="form-inline form=group" > <b><i>IngredientList</i></b>
+				<div className="form-inline form=group" > <i>IngredientList</i>
 				<ul>{this.displayResultList()} </ul>
 			  	</div>
 			);
