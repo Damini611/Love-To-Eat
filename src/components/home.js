@@ -17,10 +17,12 @@ export class Home extends React.Component{
 		return(
 			<div className = "container" >
 			<h3> Enjoy these Recipes!! </h3>
-			{this.state.Recipes.map((Recipe, i) => <div className="col-xs-12"  key ={i}><div className="col-sm-12"><font color="red"><b> {Recipe.Name}  - {Recipe.Description}</b></font> <br />
-							<img alt = {Recipe.image} src={Recipe.image} />
+			<div className = "row"> 
+			{this.state.Recipes.map((Recipe, i) => <div className="col-sm-4"  key ={i}><font color="red"><b> {Recipe.Name}  - {Recipe.Description}</b></font> <br />
+							<img alt = {Recipe.image} src={Recipe.image} height="220" width = "220" />
 							<IngredientList Recipe = {Recipe}/>
-												</div> </div>)}
+												</div>)}
+			</div>
 			</div>
 			);
 	}
